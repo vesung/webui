@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>基础交互规范&amp;指南</title>
+<link href="../style/global.css" rel="stylesheet" type="text/css" />
+<link href="../style/layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="text_title">界面框架-交易选择界面</div>
+<div class="ul_frame">
+        <h3 class="span_title">描述</h3>
+            <p> 启动初始界面后展示的界面。</p>
+   	        <h3 class="span_title">示意图</h3>
+        <p>交易选择界面</p>
+        <p><img src="../img/pic/01.jpg" width="800" height="600" /></p>
+        <p>&nbsp;</p>
+        
+        <h3 class="span_title">行为状态</h3>
+    <ul>
+        <li>刷卡、刷折、插卡、插折可进入次交易界面；</li>
+		<li>交易界面提示语言是否具有英文翻译，应根据客户要求进行设置，如无英文翻译则以1px直线分隔；</li>
+    </ul>
+        <p><img src="../img/pic/02.jpg" width="838" height="622" /></p>
+        <ul>
+		  <li>最左侧交易按钮距界面左侧边界最小间距为120px，最右侧交易按钮距界面右侧边界最小间距为120px</li>
+        </ul>
+		<p><strong>交易按钮排列规则</strong></p>
+		 <ul>
+		  <li><strong class="text_call">仅有一个交易按钮时</strong>（在第一行居中显示）</li>
+              <p><img src="../img/pic/05.jpg" width="800" height="600" /></p>
+              <p>&nbsp;</p>
+		  <li><strong class="text_call">有两个交易按钮时</strong>（在第一行居中显示，间距为40px）</li>
+              <p><img src="../img/pic/06.jpg" width="800" height="600" /></p>
+              <p>&nbsp;</p>
+		  <li><strong class="text_call">有三个交易按钮时</strong>（在第一行居中显示，间距为40px）</li>
+              <p><img src="../img/pic/07.jpg" width="800" height="600" /></p>
+              <p>&nbsp;</p>
+		  <li><strong class="text_call">有四个以上交易按钮时</strong>（距左侧边界120px开始排列，间距为40px）</li>
+              <p><img src="../img/pic/02.jpg" width="800" height="600" /></p>
+              <p>&nbsp;</p>
+		  <li><strong class="text_call">排列两行以上时</strong>（行间距为30px）</li>
+		  <li><strong class="text_call">超出界面承载时（出现分页器）</strong>详情请看“使用指南”</li>
+              <p><img src="../img/pic/03.jpg" width="800" height="600" /></p>
+              <p><img src="../img/pic/04.jpg" width="596" height="206" /></p>
+		 </ul>
+		<p>&nbsp;</p>
+        <h3 class="span_title">使用指南</h3>
+   	<ul>
+   	    <li>虽然交易按钮超出界面显示时，可进行分页显示，但这种展示方式不利于用户操作和查看，建议开发人员优化交易层级，尽量不出现分页。</li>
+  </ul>
+</div>
+</body>
+</html>

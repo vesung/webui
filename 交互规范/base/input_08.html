@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>基础交互规范&amp;指南</title>
+<link href="../style/global.css" rel="stylesheet" type="text/css" />
+<link href="../style/layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="text_title">控件-数据网格</div>
+<div class="ul_frame">
+    <h3 class="span_title">描述</h3>
+    <ul>
+        <li>数据网格由一行或多行单元格组成，用于显示数字和其他项以便快速引用和分析。</li>
+		
+    </ul>
+    <h3 class="span_title">示意图</h3>
+	<p align="center"><img src="../img/pic/sjwg1.jpg" width="685" height="377" /></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+    <h3 class="span_title">行为状态</h3>
+  <ul><li><strong>数据网格从行为状态上表格分为</strong>：可操作单元格的数据网格<span class="text_call">（可操作数据网格）</span>和不可操作单元格的数据网格<strong class="text_call">（不可操作数据网格）</strong>。</li>
+	  <li><strong class="text_call">可操作数据网格：</strong>通常使用在数据信息要被新增、修改、删除、等应用场景中。
+	  <p><img src="../img/pic/sjwg2.jpg" width="737" height="431" /></p>
+	  </li>
+      <li><strong class="text_call">不可操作数据网格：</strong>通常使用在数据信息只是被浏览或查看。
+	  <p><img src="../img/pic/sjwg3.jpg" width="566" height="447" /><img src="../img/pic/sjwg1.jpg" width="685" height="377" /></p>
+      </li>
+  </ul>
+
+    
+    <h3 class="span_title">使用规范</h3>
+    <ul>
+        <li>若表格有弹出窗口，弹出窗口一般为模态窗口。</li>
+      <li>如数据网格的显示行数小于设定行数，数据网格下方的控件自动上升至当前数据网格下方。</li>
+      <li>显示内容超过一页时出现分页器；</li>
+    </ul>
+    <h3 class="span_title">使用指南</h3>
+    <ul>
+      <li>表格设计应让用户易读，易扫视，易比较；</li>
+      <li>当表格的列非常多，拖动水平滚动条也不方便查看信息时，建议将关键信息放在表格单元格中，在表格关联的弹出窗口中查看完整的表格信息；</li>
+      <li>尽量在需求处就对数据网格的功能进行简化，减少数据网格中承载复杂的逻辑关系。</li>
+  </ul>
+</div>
+</body>
+</html>
